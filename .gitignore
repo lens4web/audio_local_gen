@@ -1,0 +1,58 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Environment Variables & Secrets
+.env
+.env.*
+*.env
+!.env.example
+*.pem
+*.key
+*.cert
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# IDE & Editor Files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Local Project Caches (strictly isolated inside repo)
+cache/
+cache/**
+
+# Downloaded Model Weights (heavy binary models)
+models/**/*.onnx
+models/**/*.bin
+models/**/*.pt
+models/**/*.pth
+models/**/*.safetensors
+models/xtts/*
+!models/kokoro/.gitkeep
+!models/piper/.gitkeep
+!models/silero/.gitkeep
+!models/xtts/.gitkeep
+
+# Output generated audio & history logs
+outputs/*
+!outputs/.gitkeep
+
+# Uploaded voice samples (keep only default synthetic demo samples)
+samples/uploads/*
+!samples/.gitkeep
+!samples/demo_*.wav
+
+# OS & System files
+.DS_Store
+**/.DS_Store
+Thumbs.db
+*.log
