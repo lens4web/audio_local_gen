@@ -1,4 +1,4 @@
-# 🎙️ OmniVoice Studio
+# 🎙️ OmniVoice Studio — Unified Local Neural TTS Combine
 
 > **Universal Local Neural TTS Combine & Browser Control Panel**  
 > Unified synthesis workbench combining **Kokoro-82M**, **Piper**, **Silero TTS**, **Coqui XTTS-v2**, and **Fish Speech / OpenAudio S1-mini** with native Apple Silicon (M1 Pro) acceleration.
